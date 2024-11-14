@@ -9,7 +9,7 @@
 	  
 	  stage("checkout"){
 	   steps{
-	   git 'https://github.com/ashisnishanka/my-project.git'
+	   git git 'https://github.com/Aditya-6371/my-project.git'
 	   }
 	                  }
 	
