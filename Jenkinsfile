@@ -27,6 +27,7 @@
 		stage("package"){
 	    steps{
 		 sh 'mvn package'
+		    sh "mv target/* .war target/myweb.war"
 		}
 		}
 		stage("deploy"){
